@@ -38,7 +38,6 @@ function Shell() {
     </main>
   )
 }
-
 export default function App() {
   const [user, setUser] = useState(undefined)
   useEffect(() => onAuthStateChanged(auth, u => setUser(u || null)), [])

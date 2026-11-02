@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vercel dev",
-    "dev:ui": "vite",
-    "build": "vite build",
+    "dev": "node init && vercel dev",
+    "dev:ui": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
